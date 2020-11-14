@@ -57,6 +57,15 @@ html {
 	  margin: 0px auto;
   }
 
+  a {
+    color: black;
+    text-decoration: none;
+    transition: .3s;
+    :hover {
+      color: #E34949;
+    }
+  }
+
 `;
 
 export default GlobalStyle;

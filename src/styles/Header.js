@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FlexContainer = styled.div`
-padding-top: 15px;
+  padding-top: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,7 +19,7 @@ export const Logo = styled.div`
 export const Circle = styled.div`
   height: 20px;
   width: 20px;
-  background-color: #E34949;
+  background-color: #e34949;
   border-radius: 50%;
   display: inline-block;
   margin-right: 10px;
@@ -34,4 +34,9 @@ export const MenuItem = styled.div`
   margin-left: 30px;
   font-size: 16px;
   font-weight: bold;
+  transition: .3s;
+  :hover {
+    color: #e34949;
+    cursor: pointer;
+  }
 `;

@@ -17,15 +17,22 @@ export const Text = styled.div`
 `;
 
 export const Button = styled.button`
-  background: #E34949;
-  border: none;
+  background-color: #E34949;
+  border: 2px solid #E34949;
   font-size: 14px;
   border-radius: 5px;
   font-weight: bold;
   color: white;
   margin-top: 25px;
   text-transform: uppercase;
-  padding: 18px;
+  transition: .3s;
+  padding: 15px;
+  :hover {
+    color: #e34949;
+    background: white;
+    cursor: pointer;
+    border: 2px solid #E34949;
+  }
 `;
 
 export const MainText = styled.div`

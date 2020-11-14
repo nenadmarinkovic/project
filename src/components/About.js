@@ -2,22 +2,31 @@ import React from "react";
 
 import {
   Wrap,
-  SVG,
+  SVGTop,
+  SVGBottom,
   AboutContainer,
   CenteredText,
   SubText,
+  FlexContainer,
+  Startup,
+  Female,
+  Title,
+  Paragraph,
+  Centered,
+  BigTitle,
 } from "../styles/About";
+import Fade from "react-reveal/Fade";
 
 function About() {
   return (
     <>
-      <SVG xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <SVGTop xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#E8E9E8"
           fill-opacity="1"
           d="M0,224L80,234.7C160,245,320,267,480,272C640,277,800,267,960,245.3C1120,224,1280,192,1360,176L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
         ></path>
-      </SVG>
+      </SVGTop>
       <Wrap>
         <div className="container">
           <AboutContainer>
@@ -26,9 +35,133 @@ function About() {
               officia deserunt mollit anim id est laborum.
             </CenteredText>
             <SubText>- AVUTEQ TEAM -</SubText>
+            <Centered>See the benefits:</Centered>
+            <FlexContainer>
+              <Startup>
+                <Fade bottom delay={400} duration={400}>
+                  <BigTitle>For Startups</BigTitle>
+                  <Title>
+                    <svg
+                      height="25"
+                      viewBox="0 0 512 512"
+                      width="25"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m369.164062 174.769531c7.8125 7.8125 7.8125 20.476563 0 28.285157l-134.171874 134.175781c-7.8125 7.808593-20.472657 7.808593-28.285157 0l-63.871093-63.875c-7.8125-7.808594-7.8125-20.472657 0-28.28125 7.808593-7.8125 20.472656-7.8125 28.28125 0l49.730468 49.730469 120.03125-120.035157c7.8125-7.808593 20.476563-7.808593 28.285156 0zm142.835938 81.230469c0 141.503906-114.515625 256-256 256-141.503906 0-256-114.515625-256-256 0-141.503906 114.515625-256 256-256 141.503906 0 256 114.515625 256 256zm-40 0c0-119.394531-96.621094-216-216-216-119.394531 0-216 96.621094-216 216 0 119.394531 96.621094 216 216 216 119.394531 0 216-96.621094 216-216zm0 0" />
+                    </svg>
+                    <span style={{ marginLeft: "10px" }}>
+                      Excepteur sint occaecat
+                    </span>
+                  </Title>
+                  <Paragraph>
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                  </Paragraph>
+                  <Title>
+                    <svg
+                      height="25"
+                      viewBox="0 0 512 512"
+                      width="25"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m369.164062 174.769531c7.8125 7.8125 7.8125 20.476563 0 28.285157l-134.171874 134.175781c-7.8125 7.808593-20.472657 7.808593-28.285157 0l-63.871093-63.875c-7.8125-7.808594-7.8125-20.472657 0-28.28125 7.808593-7.8125 20.472656-7.8125 28.28125 0l49.730468 49.730469 120.03125-120.035157c7.8125-7.808593 20.476563-7.808593 28.285156 0zm142.835938 81.230469c0 141.503906-114.515625 256-256 256-141.503906 0-256-114.515625-256-256 0-141.503906 114.515625-256 256-256 141.503906 0 256 114.515625 256 256zm-40 0c0-119.394531-96.621094-216-216-216-119.394531 0-216 96.621094-216 216 0 119.394531 96.621094 216 216 216 119.394531 0 216-96.621094 216-216zm0 0" />
+                    </svg>
+                    <span style={{ marginLeft: "10px" }}>
+                      Excepteur sint occaecat
+                    </span>
+                  </Title>
+                  <Paragraph>
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                  </Paragraph>
+                  <Title>
+                    <svg
+                      height="25"
+                      viewBox="0 0 512 512"
+                      width="25"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m369.164062 174.769531c7.8125 7.8125 7.8125 20.476563 0 28.285157l-134.171874 134.175781c-7.8125 7.808593-20.472657 7.808593-28.285157 0l-63.871093-63.875c-7.8125-7.808594-7.8125-20.472657 0-28.28125 7.808593-7.8125 20.472656-7.8125 28.28125 0l49.730468 49.730469 120.03125-120.035157c7.8125-7.808593 20.476563-7.808593 28.285156 0zm142.835938 81.230469c0 141.503906-114.515625 256-256 256-141.503906 0-256-114.515625-256-256 0-141.503906 114.515625-256 256-256 141.503906 0 256 114.515625 256 256zm-40 0c0-119.394531-96.621094-216-216-216-119.394531 0-216 96.621094-216 216 0 119.394531 96.621094 216 216 216 119.394531 0 216-96.621094 216-216zm0 0" />
+                    </svg>
+                    <span style={{ marginLeft: "10px" }}>
+                      Excepteur sint occaecat
+                    </span>
+                  </Title>
+                  <Paragraph>
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                  </Paragraph>
+                </Fade>
+              </Startup>
+
+              <Female>
+                <Fade bottom delay={800} duration={400}>
+                  <BigTitle>For Female Professionals</BigTitle>
+
+                  <Title>
+                    <svg
+                      height="25"
+                      viewBox="0 0 512 512"
+                      width="25"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m369.164062 174.769531c7.8125 7.8125 7.8125 20.476563 0 28.285157l-134.171874 134.175781c-7.8125 7.808593-20.472657 7.808593-28.285157 0l-63.871093-63.875c-7.8125-7.808594-7.8125-20.472657 0-28.28125 7.808593-7.8125 20.472656-7.8125 28.28125 0l49.730468 49.730469 120.03125-120.035157c7.8125-7.808593 20.476563-7.808593 28.285156 0zm142.835938 81.230469c0 141.503906-114.515625 256-256 256-141.503906 0-256-114.515625-256-256 0-141.503906 114.515625-256 256-256 141.503906 0 256 114.515625 256 256zm-40 0c0-119.394531-96.621094-216-216-216-119.394531 0-216 96.621094-216 216 0 119.394531 96.621094 216 216 216 119.394531 0 216-96.621094 216-216zm0 0" />
+                    </svg>
+                    <span style={{ marginLeft: "10px" }}>
+                      Excepteur sint occaecat
+                    </span>
+                  </Title>
+                  <Paragraph>
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                  </Paragraph>
+                  <Title>
+                    <svg
+                      height="25"
+                      viewBox="0 0 512 512"
+                      width="25"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m369.164062 174.769531c7.8125 7.8125 7.8125 20.476563 0 28.285157l-134.171874 134.175781c-7.8125 7.808593-20.472657 7.808593-28.285157 0l-63.871093-63.875c-7.8125-7.808594-7.8125-20.472657 0-28.28125 7.808593-7.8125 20.472656-7.8125 28.28125 0l49.730468 49.730469 120.03125-120.035157c7.8125-7.808593 20.476563-7.808593 28.285156 0zm142.835938 81.230469c0 141.503906-114.515625 256-256 256-141.503906 0-256-114.515625-256-256 0-141.503906 114.515625-256 256-256 141.503906 0 256 114.515625 256 256zm-40 0c0-119.394531-96.621094-216-216-216-119.394531 0-216 96.621094-216 216 0 119.394531 96.621094 216 216 216 119.394531 0 216-96.621094 216-216zm0 0" />
+                    </svg>
+                    <span style={{ marginLeft: "10px" }}>
+                      Excepteur sint occaecat
+                    </span>
+                  </Title>
+                  <Paragraph>
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                  </Paragraph>
+                  <Title>
+                    <svg
+                      height="25"
+                      viewBox="0 0 512 512"
+                      width="25"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m369.164062 174.769531c7.8125 7.8125 7.8125 20.476563 0 28.285157l-134.171874 134.175781c-7.8125 7.808593-20.472657 7.808593-28.285157 0l-63.871093-63.875c-7.8125-7.808594-7.8125-20.472657 0-28.28125 7.808593-7.8125 20.472656-7.8125 28.28125 0l49.730468 49.730469 120.03125-120.035157c7.8125-7.808593 20.476563-7.808593 28.285156 0zm142.835938 81.230469c0 141.503906-114.515625 256-256 256-141.503906 0-256-114.515625-256-256 0-141.503906 114.515625-256 256-256 141.503906 0 256 114.515625 256 256zm-40 0c0-119.394531-96.621094-216-216-216-119.394531 0-216 96.621094-216 216 0 119.394531 96.621094 216 216 216 119.394531 0 216-96.621094 216-216zm0 0" />
+                    </svg>
+                    <span style={{ marginLeft: "10px" }}>
+                      Excepteur sint occaecat
+                    </span>
+                  </Title>
+                  <Paragraph>
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                  </Paragraph>
+                </Fade>
+              </Female>
+            </FlexContainer>
           </AboutContainer>
         </div>
       </Wrap>
+      <SVGBottom xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#E8E9E8"
+          fill-opacity="1"
+          d="M0,224L120,213.3C240,203,480,181,720,181.3C960,181,1200,203,1320,213.3L1440,224L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
+        ></path>
+      </SVGBottom>
     </>
   );
 }
