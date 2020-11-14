@@ -19,7 +19,7 @@ export const Logo = styled.div`
 export const Circle = styled.div`
   height: 20px;
   width: 20px;
-  background-color: black;
+  background-color: #E34949;
   border-radius: 50%;
   display: inline-block;
   margin-right: 10px;
