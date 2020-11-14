@@ -16,7 +16,7 @@ export const OptionWrap = styled.div`
   border-radius: 18px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
   margin: 20px;
-  height: 420px;
+  height: 410px;
   transition: 0.3s;
   text-align: center;
 
@@ -36,4 +36,5 @@ export const CenteredTitle = styled.div`
 export const SVG = styled.svg`
   text-align: center;
   margin-right: 40px;
+  margin-top: 15px;
 `;
