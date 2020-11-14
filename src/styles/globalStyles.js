@@ -66,6 +66,43 @@ html {
     }
   }
 
+  .moveOne {
+    animation-direction:alternate;
+    transform: translate(-.4cm);
+    transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+   
+  }
+
+  .moveTwo{
+    animation-direction:alternate;
+    transform: translateY(-.4cm);
+    transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+   
+  }
+
+
+  .moveThree { 
+    animation-direction:alternate;
+    transform: translateY(-.4cm);
+    transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+   
+  }
+
+  .moveFour { 
+    animation-direction:alternate;
+    transform: translateY(.4cm);
+    transition: all 1.5s;
+    -webkit-transition: all 1.5s;
+   
+  }
+
+  .colorYellow {
+    fill: #E9EC5B;
+  }
+
 `;
 
 export default GlobalStyle;

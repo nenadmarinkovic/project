@@ -10,6 +10,7 @@ import {
 } from "../styles/Banner";
 
 function Banner() {
+
   return (
     <>
       <div className="container">
@@ -21,10 +22,8 @@ function Banner() {
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
               reprehenderit in voluptate velit esse cillum dolore.
             </SubText>
-
             <Button>Choose your option</Button>
           </Text>
-
           <Illustration>
             <SVG
               width="562"

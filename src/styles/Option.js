@@ -33,11 +33,17 @@ export const CenteredTitle = styled.div`
 `;
 
 export const OptionItem = styled.div`
- width: 50%
+ width: 50%;
+ transition: .5s;
 `;
 
 export const SVG = styled.svg`
   text-align: center;
   margin-right: 40px;
   margin-top: 15px;
+  transition: .5s;
+`;
+
+export const SVGStartup = styled.svg`
+transition: .5s;
 `;
