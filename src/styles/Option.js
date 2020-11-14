@@ -12,7 +12,6 @@ export const FlexContainer = styled.div`
 `;
 
 export const OptionWrap = styled.div`
-  width: 48%;
   border-radius: 18px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
   margin: 20px;
@@ -31,6 +30,10 @@ export const CenteredTitle = styled.div`
   padding: 30px 10px 10px;
   font-size: 33px;
   font-weight: bold;
+`;
+
+export const OptionItem = styled.div`
+ width: 50%
 `;
 
 export const SVG = styled.svg`
