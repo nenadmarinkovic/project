@@ -10,17 +10,19 @@ import {
 } from "../styles/Banner";
 
 function Banner() {
-
   return (
     <>
       <div className="container">
         <BannerContainer>
           <Text>
-            <MainText>Lorem ipsum dolor sit amet</MainText>
+            <MainText>
+              Company advisory to board-level part-time executive engagements
+            </MainText>
             <SubText>
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore.
+              Our mission is to make it easier for companies and professionals
+              to connect, particularly in the fields of Product and Engineering.
+              We believe in gender equitable engagement, thus our emphasis is on
+              female professionals.
             </SubText>
             <Button>Choose your option</Button>
           </Text>

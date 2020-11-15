@@ -36,11 +36,11 @@ export const Button = styled.button`
 `;
 
 export const MainText = styled.div`
-  font-size: 47px;
+  font-size: 38px;
   font-weight: bold;
 `;
 export const SubText = styled.div`
-  font-size: 21px;
+  font-size: 18px;
   margin-top: 10px;
   line-height: 1.8;
   margin-top: 15px;

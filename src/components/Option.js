@@ -30,7 +30,7 @@ function Option() {
           >
             <Fade bottom delay={700} duration={300}>
               <OptionWrap>
-                <CenteredTitle>For Startups</CenteredTitle>
+                <CenteredTitle>Companies</CenteredTitle>
                 <SVGStartup
                   onMouseOver={() => setHovered(true)}
                   onMouseLeave={() => setHovered(false)}
