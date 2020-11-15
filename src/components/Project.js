@@ -14,7 +14,7 @@ function Project() {
         </CenteredText>
         <SmallerText>
           Senior and Leadership level talent acquisition for the world's leading
-          technology platforms
+          technology platforms.
         </SmallerText>
       </Text>
     </Wrap>

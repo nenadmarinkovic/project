@@ -7,6 +7,7 @@ import {
   MenuItem,
   MenuItemLink,
 } from "../styles/Header";
+import ScrollIntoView from "react-scroll-into-view";
 
 function Header() {
   return (
@@ -17,9 +18,23 @@ function Header() {
           <span>Project</span>
         </Logo>
         <MenuContainer>
-          <MenuItem>How can you benefit?</MenuItem>
-          <MenuItem>Choose your option</MenuItem>
-          <MenuItemLink href="https://avuteq.com" target="_blank" rel="noreferrer">Project by Avuteq</MenuItemLink>
+          <MenuItem>
+            <ScrollIntoView selector="#benefits" smooth={true}>
+              How can you benefit?
+            </ScrollIntoView>
+          </MenuItem>
+          <MenuItem>
+            <ScrollIntoView selector="#options" smooth={true}>
+              Choose your option
+            </ScrollIntoView>
+          </MenuItem>
+          <MenuItemLink
+            href="https://avuteq.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Project by Avuteq
+          </MenuItemLink>
         </MenuContainer>
       </FlexContainer>
     </div>

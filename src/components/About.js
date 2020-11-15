@@ -35,11 +35,11 @@ function About() {
               aims at creating diverse and inclusive experiences.
             </CenteredText>
             <SubText>- AVUTEQ TEAM -</SubText>
-            <Centered>See the benefits:</Centered>
+            <Centered id="benefits">See the benefits:</Centered>
             <FlexContainer>
               <Startup>
                 <Fade bottom delay={400} duration={400}>
-                  <BigTitle>For Companies</BigTitle>
+                  <BigTitle>Companies</BigTitle>
                   <Title>
                     <svg
                       height="25"
@@ -96,7 +96,7 @@ function About() {
 
               <Female>
                 <Fade bottom delay={800} duration={400}>
-                  <BigTitle>For Female Professionals</BigTitle>
+                  <BigTitle>Female Professionals</BigTitle>
 
                   <Title>
                     <svg

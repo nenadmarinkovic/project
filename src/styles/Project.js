@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrap = styled.div`
 margin-bottom: -100px;
-padding-top: 100px;
+padding-top: 40px;
 `;
 
 export const Text = styled.div`

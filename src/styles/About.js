@@ -44,7 +44,7 @@ export const FlexContainer = styled.div`
 `;
 
 export const Centered = styled.div`
-  margin-top: 60px;
+  padding-top: 40px;
   padding-bottom: 30px;
   font-size: 16px;
   color: #e34949;

@@ -8,6 +8,7 @@ import {
   Illustration,
   Button,
 } from "../styles/Banner";
+import ScrollIntoView from "react-scroll-into-view";
 
 function Banner() {
   return (
@@ -23,8 +24,14 @@ function Banner() {
               to connect, particularly in the fields of Product and Engineering.
               We believe in gender equitable engagement, thus our emphasis is on
               female professionals.
-            </SubText>
-            <Button>Choose your option</Button>
+            </SubText>{" "}
+            <ScrollIntoView
+              style={{ display: "inline" }}
+              selector="#options"
+              smooth={true}
+            >
+              <Button>Choose your option</Button>
+            </ScrollIntoView>
           </Text>
           <Illustration>
             <SVG

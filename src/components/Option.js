@@ -22,7 +22,7 @@ function Option() {
           officia deserunt mollit anim id est laborum.
         </CenteredText>
         <SubText>- AVUTEQ TEAM -</SubText>
-        <Centered>Choose your option:</Centered>
+        <Centered id="options">Choose your option:</Centered>
         <FlexContainer>
           <OptionItem
             onMouseOver={() => setHovered(true)}
