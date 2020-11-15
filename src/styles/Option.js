@@ -13,14 +13,14 @@ export const FlexContainer = styled.div`
 
 export const OptionWrap = styled.div`
   border-radius: 18px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  border: 1px solid #eaeaea;
   margin: 20px;
   height: 410px;
   transition: 0.3s;
   text-align: center;
 
   :hover {
-    background-color: #f6f6f6;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
     cursor: pointer;
   }
 `;
@@ -33,17 +33,17 @@ export const CenteredTitle = styled.div`
 `;
 
 export const OptionItem = styled.div`
- width: 50%;
- transition: .5s;
+  width: 50%;
+  transition: 0.5s;
 `;
 
 export const SVG = styled.svg`
   text-align: center;
   margin-right: 40px;
   margin-top: 15px;
-  transition: .5s;
+  transition: 0.5s;
 `;
 
 export const SVGStartup = styled.svg`
-transition: .5s;
+  transition: 0.5s;
 `;
