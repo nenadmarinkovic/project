@@ -1,6 +1,9 @@
 var plugins = [{
       plugin: require('/Users/Nenad/Web Development/project/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"transpileTemplateLiterals":true,"pure":false},
+    },{
+      plugin: require('/Users/Nenad/Web Development/project/node_modules/gatsby-plugin-react-head/gatsby-ssr'),
+      options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

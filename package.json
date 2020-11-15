@@ -16,9 +16,11 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^2.25.3",
+    "gatsby-plugin-react-head": "^1.1.0",
     "gatsby-plugin-styled-components": "^3.4.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-head": "^3.4.0",
     "react-reveal": "^1.2.2",
     "react-scroll-into-view": "^1.8.2",
     "styled-components": "^5.2.1"

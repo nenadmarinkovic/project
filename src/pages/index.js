@@ -1,4 +1,5 @@
 import React from "react";
+import { Title, Meta } from "react-head";
 import GlobalStyle from "../styles/globalStyles";
 import Header from "../components/Header";
 import Banner from "../components/Banner";
@@ -10,6 +11,8 @@ import Project from "../components/Project";
 export default function Home() {
   return (
     <>
+      <Title>Project by Avuteq</Title>
+      <Meta name="description" content="Avuteq Project" />
       <GlobalStyle />
       <Header />
       <Banner />
