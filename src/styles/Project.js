@@ -17,3 +17,8 @@ export const SmallerText = styled.div`
   line-height: 1.6;
   margin-right: 80px;
 `;
+
+export const LinkTo = styled.a`
+color: black;
+text-decoraation: none;
+`;

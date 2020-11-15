@@ -40,3 +40,14 @@ export const MenuItem = styled.div`
     cursor: pointer;
   }
 `;
+
+export const MenuItemLink = styled.a`
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: .3s;
+  :hover {
+    color: #e34949;
+    cursor: pointer;
+  }
+`;

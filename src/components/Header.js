@@ -5,6 +5,7 @@ import {
   Circle,
   MenuContainer,
   MenuItem,
+  MenuItemLink,
 } from "../styles/Header";
 
 function Header() {
@@ -16,9 +17,9 @@ function Header() {
           <span>Project</span>
         </Logo>
         <MenuContainer>
-          <MenuItem>About the project</MenuItem>
+          <MenuItem>How can you benefit?</MenuItem>
           <MenuItem>Choose your option</MenuItem>
-          <MenuItem>Project by Avuteq</MenuItem>
+          <MenuItemLink href="https://avuteq.com" target="_blank" rel="noreferrer">Project by Avuteq</MenuItemLink>
         </MenuContainer>
       </FlexContainer>
     </div>
