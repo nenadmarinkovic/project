@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Wrap = styled.div`
-margin-bottom: -100px;
-padding-top: 40px;
+  margin-bottom: -100px;
+  padding-top: 10px;
 `;
 
 export const Text = styled.div`
- padding: 0 280px;
+  padding: 0 280px;
 `;
 
 export const SmallerText = styled.div`
@@ -19,6 +19,6 @@ export const SmallerText = styled.div`
 `;
 
 export const LinkTo = styled.a`
-color: black;
-text-decoraation: none;
+  color: black;
+  text-decoraation: none;
 `;

@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  Wrap,
   FlexContainer,
   Logo,
   Circle,
@@ -11,6 +12,7 @@ import ScrollIntoView from "react-scroll-into-view";
 
 function Header() {
   return (
+    <Wrap>
     <div className="container">
       <FlexContainer>
         <Logo>
@@ -38,6 +40,7 @@ function Header() {
         </MenuContainer>
       </FlexContainer>
     </div>
+    </Wrap>
   );
 }
 

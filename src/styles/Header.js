@@ -1,7 +1,17 @@
 import styled from "styled-components";
 
+export const Wrap = styled.div`
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  margin-top: -10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 30;
+  border-bottom: 1px solid #eaeaea;
+`;
+
 export const FlexContainer = styled.div`
-  padding-top: 15px;
+  padding-top: 25px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,7 +44,7 @@ export const MenuItem = styled.div`
   margin-left: 30px;
   font-size: 16px;
   font-weight: bold;
-  transition: .3s;
+  transition: 0.3s;
   :hover {
     color: #e34949;
     cursor: pointer;
@@ -45,7 +55,7 @@ export const MenuItemLink = styled.a`
   margin-left: 30px;
   font-size: 16px;
   font-weight: bold;
-  transition: .3s;
+  transition: 0.3s;
   :hover {
     color: #e34949;
     cursor: pointer;

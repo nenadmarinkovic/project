@@ -44,8 +44,8 @@ export const FlexContainer = styled.div`
 `;
 
 export const Centered = styled.div`
-  padding-top: 40px;
-  padding-bottom: 30px;
+  padding-top: 80px;
+  padding-bottom: 20px;
   font-size: 16px;
   color: #e34949;
   font-weight: bold;

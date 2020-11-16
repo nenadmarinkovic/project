@@ -4,6 +4,7 @@ export const BannerContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 50px;
 `;
 
 export const SVG = styled.svg`
