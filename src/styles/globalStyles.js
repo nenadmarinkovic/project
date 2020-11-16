@@ -48,13 +48,43 @@ html {
   .container {
     width: 1200px;
     max-width: 100%;
-	  margin: 0px auto;
+    margin: 0px auto;
+    padding: 0 20px;
+  }
+
+  .logo-image {
+    width: 23%
+  }
+
+  .no-ml {
+    margin-left: 0 !important;
+
+    @media (max-width: 840px) {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      margin-top: 30px;
+     }
+  }
+
+  .no-mr {
+    margin-right: 0 !important;
+    @media (max-width: 840px) {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+     margin-top: 30px;
+    }
+  }
+
+  .small-resolution-margin {
+    @media (max-width: 1240px) {
+      margin-top: 80px;
+     }
   }
 
   .container-full {
   
     max-width: 100%;
-	  margin: 0px auto;
+    margin: 0px auto;
   }
 
   a {
@@ -62,7 +92,7 @@ html {
     text-decoration: none;
     transition: .3s;
     :hover {
-      color: #E34949;
+      color: #ED5730;
     }
   }
 

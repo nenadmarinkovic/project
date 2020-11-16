@@ -17,6 +17,10 @@ export const FlexContainer = styled.div`
   justify-content: space-between;
   color: black;
   padding-bottom: 15px;
+
+  @media (max-width: 1240px) {
+    margin-right: 40px;
+  }
 `;
 
 export const Logo = styled.div`
@@ -29,7 +33,7 @@ export const Logo = styled.div`
 export const Circle = styled.div`
   height: 20px;
   width: 20px;
-  background-color: #e34949;
+  background-color: #ED5730;
   border-radius: 50%;
   display: inline-block;
   margin-right: 10px;
@@ -46,7 +50,7 @@ export const MenuItem = styled.div`
   font-weight: bold;
   transition: 0.3s;
   :hover {
-    color: #e34949;
+    color: #ED5730;
     cursor: pointer;
   }
 `;
@@ -57,7 +61,7 @@ export const MenuItemLink = styled.a`
   font-weight: bold;
   transition: 0.3s;
   :hover {
-    color: #e34949;
+    color: #ED5730;
     cursor: pointer;
   }
 `;

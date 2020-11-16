@@ -1,6 +1,7 @@
 import React from "react";
 import { Centered, CenteredText } from "../styles/About";
 import { Wrap, Text, SmallerText, LinkTo } from "../styles/Project";
+import logo from "../../public/logo.png"
 
 function Project() {
   return (
@@ -9,7 +10,7 @@ function Project() {
       <Text>
         <CenteredText>
           <LinkTo href="https://avuteq.com" target="_blank" rel="noreferrer">
-            Avuteq
+            <img className="logo-image" src={logo} alt="Company Logo"></img>
           </LinkTo>
         </CenteredText>
         <SmallerText>

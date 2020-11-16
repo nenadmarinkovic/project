@@ -8,16 +8,32 @@ export const SVGTop = styled.svg`
   margin-top: -380px;
   position: relative;
   z-index: -10;
+
+  @media (max-width: 580px) {
+    bottom: 50px;
+  }
 `;
 
 export const SVGBottom = styled.svg`
   margin-top: -100px;
+
+  @media (max-width: 580px) {
+    margin-top: 0;
+  }
 `;
 
 export const AboutContainer = styled.div`
   margin-top: -20px;
   padding-top: 80px;
   padding-bottom: 120px;
+  @media (max-width: 1240px) {
+    margin-right: 40px;
+  }
+
+  @media (max-width: 580px) {
+    margin-top: -60px;
+    padding-bottom: 0;
+  }
 `;
 
 export const CenteredText = styled.div`
@@ -26,6 +42,15 @@ export const CenteredText = styled.div`
   font-size: 32px;
   font-weight: bold;
   color: black;
+
+  @media (max-width: 840px) {
+    font-size: 28px;
+    padding: 10px 30px 10px 30px;
+  }
+
+  @media (max-width: 540px) {
+    padding: 10px 0 10px 0;
+  }
 `;
 
 export const SubText = styled.div`
@@ -41,13 +66,16 @@ export const FlexContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
+  @media (max-width: 1240px) {
+    flex-direction: column;
+  }
 `;
 
 export const Centered = styled.div`
   padding-top: 80px;
   padding-bottom: 20px;
   font-size: 16px;
-  color: #e34949;
+  color: #ED5730;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -60,16 +88,22 @@ export const BigTitle = styled.div`
   border-radius: 10px;
   font-weight: bold;
   padding: 15px;
-  background: #e34949;
+  background: #ED5730;
   color: white;
 `;
 
 export const Startup = styled.div`
   width: 40%;
+  @media (max-width: 1240px) {
+    width: 100%;
+  }
 `;
 
 export const Female = styled.div`
   width: 40%;
+  @media (max-width: 1240px) {
+    width: 100%;
+  }
 `;
 
 export const Title = styled.div`

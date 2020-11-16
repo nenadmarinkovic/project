@@ -5,44 +5,120 @@ export const BannerContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   padding-top: 50px;
+
+  @media (max-width: 1240px) {
+    margin-bottom: -60px;
+  }
+
+  @media (max-width: 840px) {
+    flex-direction: column;
+    padding-top: 100px;
+  }
 `;
 
 export const SVG = styled.svg`
   margin-top: 50px;
+  width: 100%;
+  @media (max-width: 1240px) {
+    margin-top: 30px;
+  }
+
+  @media (max-width: 840px) {
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  @media (max-width: 540px) {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 370px) {
+    width: 100%;
+    margin-top: -30px;
+  }
 `;
 
-export const Illustration = styled.div``;
+export const Illustration = styled.div`
+  @media (max-width: 1240px) {
+    margin-right: 40px;
+  }
+
+  @media (max-width: 840px) {
+    margin-top: -20px;
+    margin-right: 40px;
+    margin-left: 60px;
+  }
+
+  @media (max-width: 640px) {
+    margin-top: -80px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+`;
 
 export const Text = styled.div`
   width: 50%;
+  @media (max-width: 1240px) {
+    width: 60%;
+    margin-right: 30px;
+  }
+
+  @media (max-width: 840px) {
+    text-align: center;
+    width: 80%;
+  }
 `;
 
 export const Button = styled.button`
-  background-color: #E34949;
-  border: 2px solid #E34949;
+  background-color: #ED5730;
+  border: 2px solid #ED5730;
   font-size: 14px;
   border-radius: 5px;
   font-weight: bold;
   color: white;
   margin-top: 25px;
   text-transform: uppercase;
-  transition: .3s;
+  transition: 0.3s;
   padding: 15px;
   :hover {
-    color: #e34949;
+    color: #ED5730;
     background: white;
     cursor: pointer;
-    border: 2px solid #E34949;
+    border: 2px solid #ED5730;
+  }
+  @media (max-width: 1240px) {
+    margin-bottom: 30px;
   }
 `;
 
 export const MainText = styled.div`
   font-size: 38px;
   font-weight: bold;
+
+  @media (max-width: 960px) {
+    font-size: 34px;
+  }
+
+  @media (max-width: 840px) {
+    text-align: center;
+  }
+
+  @media (max-width: 560px) {
+    font-size: 32px;
+  }
 `;
 export const SubText = styled.div`
   font-size: 18px;
   margin-top: 10px;
   line-height: 1.8;
   margin-top: 15px;
+
+  @media (max-width: 840px) {
+    text-align: center;
+  }
+
+  @media (max-width: 560px) {
+    font-size: 16px;
+  }
 `;

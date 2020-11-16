@@ -35,7 +35,7 @@ function About() {
               executive engagements.
             </CenteredText>
             <SubText>- AVUTEQ TEAM -</SubText>
-            <Centered id="benefits">Explore the benefits</Centered>
+            <Centered id="benefits">Explore the benefits:</Centered>
             <FlexContainer>
               <Startup>
                 <Fade bottom delay={400} duration={400}>
@@ -99,7 +99,7 @@ function About() {
 
               <Female>
                 <Fade bottom delay={800} duration={400}>
-                  <BigTitle>Female Professionals</BigTitle>
+                  <BigTitle className="small-resolution-margin">Female Professionals</BigTitle>
 
                   <Title>
                     <svg
