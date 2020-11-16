@@ -75,7 +75,7 @@ export const Centered = styled.div`
   padding-top: 80px;
   padding-bottom: 20px;
   font-size: 16px;
-  color: #ED5730;
+  color: #ED572F;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -88,7 +88,7 @@ export const BigTitle = styled.div`
   border-radius: 10px;
   font-weight: bold;
   padding: 15px;
-  background: #ED5730;
+  background: #ED572F;
   color: white;
 `;
 

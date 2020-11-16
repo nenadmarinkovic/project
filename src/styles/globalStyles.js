@@ -92,7 +92,7 @@ html {
     text-decoration: none;
     transition: .3s;
     :hover {
-      color: #ED5730;
+      color: #ED572F;
     }
   }
 

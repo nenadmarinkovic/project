@@ -71,8 +71,8 @@ export const Text = styled.div`
 `;
 
 export const Button = styled.button`
-  background-color: #ED5730;
-  border: 2px solid #ED5730;
+  background-color: #ED572F;
+  border: 2px solid #ED572F;
   font-size: 14px;
   border-radius: 5px;
   font-weight: bold;
@@ -82,10 +82,10 @@ export const Button = styled.button`
   transition: 0.3s;
   padding: 15px;
   :hover {
-    color: #ED5730;
+    color: #ED572F;
     background: white;
     cursor: pointer;
-    border: 2px solid #ED5730;
+    border: 2px solid #ED572F;
   }
   @media (max-width: 1240px) {
     margin-bottom: 30px;

@@ -33,7 +33,7 @@ export const Logo = styled.div`
 export const Circle = styled.div`
   height: 20px;
   width: 20px;
-  background-color: #ED5730;
+  background-color: #ED572F;
   border-radius: 50%;
   display: inline-block;
   margin-right: 10px;
@@ -50,7 +50,7 @@ export const MenuItem = styled.div`
   font-weight: bold;
   transition: 0.3s;
   :hover {
-    color: #ED5730;
+    color: #ED572F;
     cursor: pointer;
   }
 `;
@@ -61,7 +61,7 @@ export const MenuItemLink = styled.a`
   font-weight: bold;
   transition: 0.3s;
   :hover {
-    color: #ED5730;
+    color: #ED572F;
     cursor: pointer;
   }
 `;
