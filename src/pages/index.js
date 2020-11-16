@@ -11,7 +11,7 @@ import Project from "../components/Project";
 export default function Home() {
   return (
     <>
-      <Title>Project by Avuteq</Title>
+      <Title>Diversify by Avuteq</Title>
       <Meta name="description" content="Avuteq Project" />
       <GlobalStyle />
       <Header />

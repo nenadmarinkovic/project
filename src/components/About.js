@@ -31,11 +31,11 @@ function About() {
         <div className="container">
           <AboutContainer>
             <CenteredText>
-              By creating opportunities for female professionals, our project
-              aims at creating diverse and inclusive experiences.
+              We focus on enabling company advisory to board-level part-time
+              executive engagements.
             </CenteredText>
             <SubText>- AVUTEQ TEAM -</SubText>
-            <Centered id="benefits">See the benefits:</Centered>
+            <Centered id="benefits">Explore the benefits</Centered>
             <FlexContainer>
               <Startup>
                 <Fade bottom delay={400} duration={400}>
@@ -54,8 +54,27 @@ function About() {
                     </span>
                   </Title>
                   <Paragraph>
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    This obviously gives you many advantages, from strengthening
+                    your current position to leading your product into
+                    completely new directions.
+                  </Paragraph>
+                  <Title>
+                    <svg
+                      height="25"
+                      viewBox="0 0 512 512"
+                      width="25"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="m369.164062 174.769531c7.8125 7.8125 7.8125 20.476563 0 28.285157l-134.171874 134.175781c-7.8125 7.808593-20.472657 7.808593-28.285157 0l-63.871093-63.875c-7.8125-7.808594-7.8125-20.472657 0-28.28125 7.808593-7.8125 20.472656-7.8125 28.28125 0l49.730468 49.730469 120.03125-120.035157c7.8125-7.808593 20.476563-7.808593 28.285156 0zm142.835938 81.230469c0 141.503906-114.515625 256-256 256-141.503906 0-256-114.515625-256-256 0-141.503906 114.515625-256 256-256 141.503906 0 256 114.515625 256 256zm-40 0c0-119.394531-96.621094-216-216-216-119.394531 0-216 96.621094-216 216 0 119.394531 96.621094 216 216 216 119.394531 0 216-96.621094 216-216zm0 0" />
+                    </svg>
+                    <span style={{ marginLeft: "10px" }}>
+                      New learning opportunities
+                    </span>
+                  </Title>
+                  <Paragraph>
+                    Having an experienced professional on your team brings not
+                    only new perspectives on your company but important insights
+                    into the industry as well.
                   </Paragraph>
                   <Title>
                     <svg
@@ -71,25 +90,9 @@ function About() {
                     </span>
                   </Title>
                   <Paragraph>
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
-                  </Paragraph>
-                  <Title>
-                    <svg
-                      height="25"
-                      viewBox="0 0 512 512"
-                      width="25"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="m369.164062 174.769531c7.8125 7.8125 7.8125 20.476563 0 28.285157l-134.171874 134.175781c-7.8125 7.808593-20.472657 7.808593-28.285157 0l-63.871093-63.875c-7.8125-7.808594-7.8125-20.472657 0-28.28125 7.808593-7.8125 20.472656-7.8125 28.28125 0l49.730468 49.730469 120.03125-120.035157c7.8125-7.808593 20.476563-7.808593 28.285156 0zm142.835938 81.230469c0 141.503906-114.515625 256-256 256-141.503906 0-256-114.515625-256-256 0-141.503906 114.515625-256 256-256 141.503906 0 256 114.515625 256 256zm-40 0c0-119.394531-96.621094-216-216-216-119.394531 0-216 96.621094-216 216 0 119.394531 96.621094 216 216 216 119.394531 0 216-96.621094 216-216zm0 0" />
-                    </svg>
-                    <span style={{ marginLeft: "10px" }}>
-                      Excepteur sint occaecat
-                    </span>
-                  </Title>
-                  <Paragraph>
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    By affirming female professionals not only a new skill set
+                    is introduced to your company but also a whole new spectrum
+                    of innovations.
                   </Paragraph>
                 </Fade>
               </Startup>
@@ -108,12 +111,13 @@ function About() {
                       <path d="m369.164062 174.769531c7.8125 7.8125 7.8125 20.476563 0 28.285157l-134.171874 134.175781c-7.8125 7.808593-20.472657 7.808593-28.285157 0l-63.871093-63.875c-7.8125-7.808594-7.8125-20.472657 0-28.28125 7.808593-7.8125 20.472656-7.8125 28.28125 0l49.730468 49.730469 120.03125-120.035157c7.8125-7.808593 20.476563-7.808593 28.285156 0zm142.835938 81.230469c0 141.503906-114.515625 256-256 256-141.503906 0-256-114.515625-256-256 0-141.503906 114.515625-256 256-256 141.503906 0 256 114.515625 256 256zm-40 0c0-119.394531-96.621094-216-216-216-119.394531 0-216 96.621094-216 216 0 119.394531 96.621094 216 216 216 119.394531 0 216-96.621094 216-216zm0 0" />
                     </svg>
                     <span style={{ marginLeft: "10px" }}>
-                      Getting new exposures within the industry
+                      New experiences within the industry
                     </span>
                   </Title>
                   <Paragraph>
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    Advancing your career when you’re in a high position is not
+                    always easy, that’s why we want to offer the chance to
+                    choose exactly the experiences you need and want.
                   </Paragraph>
                   <Title>
                     <svg
@@ -125,12 +129,13 @@ function About() {
                       <path d="m369.164062 174.769531c7.8125 7.8125 7.8125 20.476563 0 28.285157l-134.171874 134.175781c-7.8125 7.808593-20.472657 7.808593-28.285157 0l-63.871093-63.875c-7.8125-7.808594-7.8125-20.472657 0-28.28125 7.808593-7.8125 20.472656-7.8125 28.28125 0l49.730468 49.730469 120.03125-120.035157c7.8125-7.808593 20.476563-7.808593 28.285156 0zm142.835938 81.230469c0 141.503906-114.515625 256-256 256-141.503906 0-256-114.515625-256-256 0-141.503906 114.515625-256 256-256 141.503906 0 256 114.515625 256 256zm-40 0c0-119.394531-96.621094-216-216-216-119.394531 0-216 96.621094-216 216 0 119.394531 96.621094 216 216 216 119.394531 0 216-96.621094 216-216zm0 0" />
                     </svg>
                     <span style={{ marginLeft: "10px" }}>
-                      Excepteur sint occaecat
+                      Meaningful engagement
                     </span>
                   </Title>
                   <Paragraph>
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    Our aim is to give you the opportunity to choose projects
+                    you actually find interesting and meaningful, leading to
+                    fulfilling cooperation.
                   </Paragraph>
                   <Title>
                     <svg
@@ -142,12 +147,13 @@ function About() {
                       <path d="m369.164062 174.769531c7.8125 7.8125 7.8125 20.476563 0 28.285157l-134.171874 134.175781c-7.8125 7.808593-20.472657 7.808593-28.285157 0l-63.871093-63.875c-7.8125-7.808594-7.8125-20.472657 0-28.28125 7.808593-7.8125 20.472656-7.8125 28.28125 0l49.730468 49.730469 120.03125-120.035157c7.8125-7.808593 20.476563-7.808593 28.285156 0zm142.835938 81.230469c0 141.503906-114.515625 256-256 256-141.503906 0-256-114.515625-256-256 0-141.503906 114.515625-256 256-256 141.503906 0 256 114.515625 256 256zm-40 0c0-119.394531-96.621094-216-216-216-119.394531 0-216 96.621094-216 216 0 119.394531 96.621094 216 216 216 119.394531 0 216-96.621094 216-216zm0 0" />
                     </svg>
                     <span style={{ marginLeft: "10px" }}>
-                      Diversifying your professional experience
+                      Diversifying your professional network
                     </span>
                   </Title>
                   <Paragraph>
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    For your present and future it is valuable to have a wider
+                    professional network, with a range of possibilities at your
+                    disposal.
                   </Paragraph>
                 </Fade>
               </Female>

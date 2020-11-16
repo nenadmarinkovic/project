@@ -14,7 +14,7 @@ function Footer() {
       <Wrap>
         <div className="container">
           <CenteredFooter>
-            © {new Date().getFullYear()} Project name
+            © {new Date().getFullYear()} Diversify by Avuteq
           </CenteredFooter>
           <Created>
             Design and development:{" "}

@@ -17,12 +17,12 @@ function Banner() {
         <BannerContainer>
           <Text>
             <MainText>
-              Company advisory to board-level part-time executive engagements
+              Accelerating growth by diversifying the industry
             </MainText>
             <SubText>
-              Our mission is to make it easier for companies and professionals
-              to connect, particularly in the fields of Product and Engineering.
-              We believe in gender equitable engagement, thus our emphasis is on
+              Our mission is to connect companies and professionals,
+              particularly in the fields of Product and Engineering. Since our
+              core values are gender equality and diversity, our emphasis is on
               female professionals.
             </SubText>{" "}
             <ScrollIntoView
@@ -30,7 +30,7 @@ function Banner() {
               selector="#options"
               smooth={true}
             >
-              <Button>Choose your option</Button>
+              <Button>Get connected</Button>
             </ScrollIntoView>
           </Text>
           <Illustration>

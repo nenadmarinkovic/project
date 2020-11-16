@@ -15,17 +15,17 @@ function Header() {
       <FlexContainer>
         <Logo>
           <Circle />
-          <span>Project</span>
+          <span>Diversify</span>
         </Logo>
         <MenuContainer>
           <MenuItem>
             <ScrollIntoView selector="#benefits" smooth={true}>
-              How can you benefit?
+            Explore the benefits
             </ScrollIntoView>
           </MenuItem>
           <MenuItem>
             <ScrollIntoView selector="#options" smooth={true}>
-              Choose your option
+            Get connected
             </ScrollIntoView>
           </MenuItem>
           <MenuItemLink

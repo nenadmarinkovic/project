@@ -18,8 +18,8 @@ function Option() {
     <Wrap>
       <div className="container">
         <CenteredText>
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-          officia deserunt mollit anim id est laborum.
+          By creating opportunities for female professionals, our project aims
+          at promoting diversity and inclusion across the industry.
         </CenteredText>
         <SubText>- AVUTEQ TEAM -</SubText>
         <Centered id="options">Choose your option:</Centered>
