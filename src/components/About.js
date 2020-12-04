@@ -99,7 +99,9 @@ function About() {
 
               <Female>
                 <Fade bottom delay={800} duration={400}>
-                  <BigTitle className="small-resolution-margin">Female Professionals</BigTitle>
+                  <BigTitle className="small-resolution-margin">
+                    Female Professionals
+                  </BigTitle>
 
                   <Title>
                     <svg

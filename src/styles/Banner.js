@@ -4,7 +4,7 @@ export const BannerContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 50px;
+  padding-top: 100px;
 
   @media (max-width: 1240px) {
     margin-bottom: -60px;
@@ -77,15 +77,17 @@ export const Button = styled.button`
   border-radius: 5px;
   font-weight: bold;
   color: white;
-  margin-top: 25px;
+  margin-top: 35px;
   text-transform: uppercase;
   transition: 0.3s;
+  box-shadow: 0 10px 30px 0 rgba(0,0,0,.2);
   padding: 15px;
   :hover {
     color: #ED572F;
     background: white;
     cursor: pointer;
     border: 2px solid #ED572F;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,.2)
   }
   @media (max-width: 1240px) {
     margin-bottom: 30px;
@@ -93,7 +95,7 @@ export const Button = styled.button`
 `;
 
 export const MainText = styled.div`
-  font-size: 38px;
+  font-size: 42px;
   font-weight: bold;
 
   @media (max-width: 960px) {

@@ -28,7 +28,7 @@ export const OptionWrap = styled.div`
   text-align: center;
 
   :hover {
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,.2);
     cursor: pointer;
   }
 
