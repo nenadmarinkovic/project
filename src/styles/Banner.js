@@ -83,8 +83,6 @@ export const Button = styled.button`
   box-shadow: 0 10px 30px 0 rgba(0,0,0,.2);
   padding: 15px;
   :hover {
-    color: #ED572F;
-    background: white;
     cursor: pointer;
     border: 2px solid #ED572F;
     box-shadow: 0 0 30px 0 rgba(0,0,0,.2)
