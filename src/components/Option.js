@@ -29,7 +29,7 @@ function Option() {
             onMouseOver={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
           >
-            <Fade bottom delay={700} duration={300}>
+            <Fade bottom delay={400} duration={300}>
               <OptionWrap className="no-ml">
                 <CenteredTitle>Companies</CenteredTitle>
                 <SVGStartup
@@ -319,7 +319,7 @@ function Option() {
 
           <OptionItem>
             <Link to="/professionals">
-              <Fade bottom delay={1000} duration={300}>
+              <Fade bottom delay={800} duration={300}>
                 <OptionWrap
                   className="no-mr"
                   onMouseOver={() => setHoveredFemale(true)}

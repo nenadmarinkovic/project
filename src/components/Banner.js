@@ -9,13 +9,16 @@ import {
   Button,
 } from "../styles/Banner";
 import ScrollIntoView from "react-scroll-into-view";
+import Fade from "react-reveal/Fade";
 
 function Banner() {
   return (
     <>
       <div className="container">
         <BannerContainer>
+       
           <Text>
+          <Fade>
             <MainText>
               Accelerating growth by diversifying the industry
             </MainText>
@@ -25,7 +28,8 @@ function Banner() {
               particularly in the fields of Product and Engineering. Since our
               core values are gender equality and diversity, our emphasis is on
               female professionals.
-            </SubText>{" "}
+            </SubText>
+            </Fade>
             <ScrollIntoView
               style={{ display: "inline" }}
               selector="#options"
@@ -34,6 +38,7 @@ function Banner() {
               <Button>Get connected</Button>
             </ScrollIntoView>
           </Text>
+        
           <Illustration>
             <SVG
               width="562"
