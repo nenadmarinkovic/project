@@ -3,15 +3,36 @@ import styled from "styled-components";
 export const FlexContainer = styled.main`
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-bottom: -80px;
 
   @media (max-width: 768px) {
     flex-direction: column;
   }
 `;
 
+export const FormText = styled.div`
+  padding: 130px 0 30px;
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.5;
+`;
+
+export const FlexDiv = styled.div`
+  display: flex;
+  margin-top: 5px;
+  width: 100%;
+`;
+
+export const FlexItem = styled.div`
+  display: flex;
+  align-items: flex-end;
+`;
+
 export const MainForm = styled.main`
+  margin-top: 30px;
   width: 48%;
-  margin: 0;
+
   font-size: 21px;
   line-height: 1.65;
 
@@ -25,11 +46,11 @@ export const FormContainer = styled.form`
   grid-row-gap: 1em;
 `;
 export const FormLabel = styled.label`
-  color: ${({ theme }) => theme.text};
   font-size: 14px;
   font-weight: 500;
   text-align: left;
   text-transform: uppercase;
+  width: 40%;
   :focus {
     outline: none;
     box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
@@ -38,17 +59,17 @@ export const FormLabel = styled.label`
 
 export const FormInput = styled.input`
   margin: 0;
-  border: ${({ theme }) => theme.formBorder};
-  color: ${({ theme }) => theme.text};
-  border-radius: 5px;
   padding: 0.5em;
   vertical-align: middle;
   white-space: normal;
   background: none;
   line-height: 1;
+  width: 70%;
   font-size: 1rem;
   font-family: inherit;
-  transition: all 0.2s ease;
+  border: none;
+  border-bottom: 2px solid black;
+
   :focus {
     outline: none;
     box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
@@ -57,9 +78,7 @@ export const FormInput = styled.input`
 
 export const TextArea = styled.textarea`
   margin: 0;
-  border: ${({ theme }) => theme.formBorder};
   border-radius: 5px;
-  color: ${({ theme }) => theme.text};
   padding: 0.5em;
   vertical-align: middle;
   white-space: normal;
@@ -69,6 +88,7 @@ export const TextArea = styled.textarea`
   font-family: inherit;
   transition: all 0.2s ease;
   height: 180px;
+  border: 2px solid black;
   :focus {
     outline: none;
     box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
@@ -76,22 +96,19 @@ export const TextArea = styled.textarea`
 `;
 
 export const Button = styled.button`
-  font-family: "Steradian";
   padding: 0.65em 1em;
-  color: ${({ theme }) => theme.text};
-  border: ${({ theme }) => theme.buttonBorder};
   border-radius: 18px;
   cursor: pointer;
   line-height: 1;
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: 0.6px;
   transition: all 0.2s ease;
-  background: transparent;
+  background: #ed572f;
+  color: white;
+  border: 2px solid #ed572f;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
 
   :hover {
-    background: ${({ theme }) => theme.subtitleText};
-    border: 2px solid ${({ theme }) => theme.subtitleText};
     color: white;
   }
 
@@ -117,4 +134,9 @@ export const Copyright = styled.span`
   display: block;
   text-align: center;
   padding: 20px 0;
+`;
+
+export const SVG = styled.svg`
+  margin-top: -100px;
+  transform: scaleX(-1);
 `;

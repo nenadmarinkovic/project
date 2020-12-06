@@ -52,6 +52,13 @@ html {
     padding: 0 20px;
   }
 
+  .container-form {
+    width: 600px;
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 0 20px;
+  }
+
   .logo-image {
     width: 23%
   }
