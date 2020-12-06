@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 import {
   FlexContainer,
@@ -114,7 +114,7 @@ export default function ContactForm() {
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
     axios({
       method: "POST",
-      url: "https://formspree.io/mlepzoay",
+      url: "https://formspree.io/f/xpzoyzwj",
       data: inputs,
     })
       .then((response) => {
@@ -127,21 +127,6 @@ export default function ContactForm() {
         handleServerResponse(false, error.response.data.error);
       });
   };
-
-  useEffect(() => {
-    let Engagement = inputs.Engagement;
-    let Work = inputs.Work;
-
-    Engagement.forEach((fruite) => {
-      fruite.X = false
-      
-    });
-
-    Work.forEach((work) => {
-      work.X = false
-     
-    });
-  });
 
   return (
     <>

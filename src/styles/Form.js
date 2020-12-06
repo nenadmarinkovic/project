@@ -119,10 +119,11 @@ export const Button = styled.button`
   border: 2px solid #ed572f;
   font-size: 16px;
   font-weight: bold;
-  transition: 0.3s;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
 
   :hover {
-    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
   }
 
   :focus {
