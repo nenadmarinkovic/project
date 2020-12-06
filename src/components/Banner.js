@@ -9,7 +9,6 @@ import {
   Button,
 } from "../styles/Banner";
 import ScrollIntoView from "react-scroll-into-view";
-import Fade from "react-reveal/Fade";
 
 function Banner() {
   return (
@@ -17,18 +16,17 @@ function Banner() {
       <div className="container">
         <BannerContainer>
           <Text>
-            <Fade delay={300}>
-              <MainText>
-                Accelerating growth by diversifying the industry
-              </MainText>
-              <SubText>
-                Our mission is to connect technology companies with
-                high-performing female professionals for leadership roles,
-                particularly in the fields of Product and Engineering. Since our
-                core values are gender equality and diversity, our emphasis is
-                on female professionals.
-              </SubText>
-            </Fade>
+            <MainText>
+              Accelerating growth by diversifying the industry
+            </MainText>
+            <SubText>
+              Our mission is to connect technology companies with
+              high-performing female professionals for leadership roles,
+              particularly in the fields of Product and Engineering. Since our
+              core values are gender equality and diversity, our emphasis is on
+              female professionals.
+            </SubText>
+
             <ScrollIntoView
               style={{ display: "inline" }}
               selector="#options"
