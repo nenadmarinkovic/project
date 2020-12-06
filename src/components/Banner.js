@@ -16,19 +16,18 @@ function Banner() {
     <>
       <div className="container">
         <BannerContainer>
-       
           <Text>
-          <Fade>
-            <MainText>
-              Accelerating growth by diversifying the industry
-            </MainText>
-            <SubText>
-              Our mission is to connect technology companies with
-              high-performing female professionals for leadership roles,
-              particularly in the fields of Product and Engineering. Since our
-              core values are gender equality and diversity, our emphasis is on
-              female professionals.
-            </SubText>
+            <Fade delay={300}>
+              <MainText>
+                Accelerating growth by diversifying the industry
+              </MainText>
+              <SubText>
+                Our mission is to connect technology companies with
+                high-performing female professionals for leadership roles,
+                particularly in the fields of Product and Engineering. Since our
+                core values are gender equality and diversity, our emphasis is
+                on female professionals.
+              </SubText>
             </Fade>
             <ScrollIntoView
               style={{ display: "inline" }}
@@ -38,7 +37,7 @@ function Banner() {
               <Button>Get connected</Button>
             </ScrollIntoView>
           </Text>
-        
+
           <Illustration>
             <SVG
               width="562"

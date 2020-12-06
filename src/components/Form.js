@@ -13,7 +13,7 @@ import {
   FormText,
   SVG,
   FlexList,
-  FlexListText
+  FlexListText,
 } from "../styles/Form";
 import Fade from "react-reveal/Fade";
 import Checkbox from "../components/Checkbox";
@@ -77,12 +77,10 @@ export default function ContactForm() {
 
     Engagement.forEach((fruite) => {
       if (fruite.Value === event.target.value) fruite.X = event.target.checked;
-      
     });
 
     Work.forEach((work) => {
       if (work.Value === event.target.value) work.X = event.target.checked;
-     
     });
 
     setInputs({ ...inputs, Engagement, Work });
@@ -133,7 +131,8 @@ export default function ContactForm() {
       <Fade>
         <div className="container-form">
           <FormText>
-            Ready to explore new possibilities? Fill in your information below.
+            Ready to explore new possibilities? <br></br> Fill in your
+            information below.
           </FormText>
         </div>
 
@@ -197,9 +196,8 @@ export default function ContactForm() {
                   />
                 </FlexItem>
                 <FlexListText>
-                    What type of hire you are opened to (choose all that
-                    applies):
-                  </FlexListText>
+                  What type of hire you are opened to (choose all that applies):
+                </FlexListText>
                 <FlexList>
                   {inputs.Engagement.map((fruite) => {
                     return (
@@ -224,7 +222,6 @@ export default function ContactForm() {
                       />
                     );
                   })}
-                
                 </FlexList>
                 <Button type="submit" disabled={status.submitting}>
                   {!status.submitting
