@@ -8,6 +8,8 @@ import Option from "../components/Option";
 import Footer from "../components/Footer";
 import Project from "../components/Project";
 
+import styles from "../styles/styles.css";
+
 export default function Home() {
   return (
     <>
