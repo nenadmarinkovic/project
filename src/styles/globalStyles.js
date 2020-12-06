@@ -45,6 +45,12 @@ html {
     margin: 0
   }
 
+  li, ul {
+    list-style-type: none;
+    margin: 0;
+    
+  }
+
   .container {
     width: 1200px;
     max-width: 100%;

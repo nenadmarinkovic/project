@@ -4,7 +4,7 @@ export const FlexContainer = styled.main`
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
-  margin-bottom: -80px;
+  margin-bottom: -120px;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -12,10 +12,22 @@ export const FlexContainer = styled.main`
 `;
 
 export const FormText = styled.div`
-  padding: 130px 0 30px;
+  padding: 110px 0 20px;
   font-size: 32px;
   text-align: center;
   line-height: 1.5;
+`;
+
+export const FlexListText = styled.div`
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+`;
+
+export const FlexList = styled.ul`
+  padding: 0;
+  display: flex;
+  font-size: 18px;
 `;
 
 export const FlexDiv = styled.div`
@@ -43,7 +55,7 @@ export const MainForm = styled.main`
 
 export const FormContainer = styled.form`
   display: grid;
-  grid-row-gap: 1em;
+  grid-row-gap: 0.7em;
 `;
 export const FormLabel = styled.label`
   font-size: 14px;
@@ -96,6 +108,7 @@ export const TextArea = styled.textarea`
 `;
 
 export const Button = styled.button`
+  margin-top: 10px;
   padding: 0.65em 1em;
   border-radius: 18px;
   cursor: pointer;

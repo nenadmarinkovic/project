@@ -2,14 +2,15 @@ import React from "react";
 
 export const Checkbox = (props) => {
   return (
-    <li>
+    <li style={{marginRight: "45px", marginLeft: "-3px"}}>
       <input
         onClick={props.handleCheckChieldElement}
         type="checkbox"
         value={props.Value}
         checked={props.Checked}
       />
-      {props.Value}
+      <span style={{marginLeft: "5px"}} >{props.Value}</span>
+      
     </li>
   );
 };
