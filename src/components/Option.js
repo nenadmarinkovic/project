@@ -29,6 +29,7 @@ function Option() {
             onMouseOver={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
           >
+              <Link to="/companies">
             <Fade bottom delay={400} duration={300}>
               <OptionWrap className="no-ml">
                 <CenteredTitle>Companies</CenteredTitle>
@@ -315,6 +316,7 @@ function Option() {
                 </SVGStartup>
               </OptionWrap>
             </Fade>
+            </Link>
           </OptionItem>
 
           <OptionItem>
